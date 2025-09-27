@@ -18,6 +18,14 @@ const Header = () => {
             </div>
             <div className="flex items-center">
                 <a href="#" className="mr-4">Become a host</a>
+                <button className="mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.55 12H20.45" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2.55V21.45" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14" />
+                    </svg>
+                </button>
                 <button className="flex items-center border rounded-full p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
