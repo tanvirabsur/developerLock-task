@@ -1,0 +1,12 @@
+Hi, I’ve reviewed your resume and find some aspects of it interesting. However, to properly evaluate your skills, I’d like to assign you a task.
+Task: Recreate the Airbnb homepage using MERN Stack. The page should closely match the design and functionality of the provided link. Only the homepage and property details page ( When you click on the property) is required. Once task is completed then submit in the form.
+
+Requirements:
+* Fully responsive, matching the original design across Mobile, Laptop, Large screens, and Tablet.
+* All filters, including date selection, must be functional and powered from the backend.
+* The design needs to be matched by 97% ( you can use stock images and dummy data if needed ). 
+* Home page, Property single page. Every section inside those pages needs to be look as it is with same functionalities.
+
+Task Link: https://www.airbnb.com/
+and: https://www.airbnb.com/rooms/1264934751826633223 Deadline: 29 September, 10 PM Submission: Host the project on a free service such as Vercel (or similar) and share the live link along with the GitHub repository.
+
