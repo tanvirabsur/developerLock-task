@@ -3,13 +3,15 @@ import Header from '../components/Header';
 import Filters from '../components/Filters';
 import PropertyList from '../components/PropertyList';
 import Footer from '../components/Footer';
+import Navbar from '../components/NavBar';
 
 const Home = () => {
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
+            <Navbar/>
             {/* <Filters /> */}
-            <PropertyList />
+            {/* <PropertyList /> */}
             <Footer />
         </div>
     );
