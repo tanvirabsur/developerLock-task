@@ -1,0 +1,74 @@
+{
+  "_id": "6512a6b0f9c2a1b23d456789",
+  "title": "Cozy 2 Bedroom Apartment near City Center",
+  "description": "A modern 2-bedroom apartment with balcony and city view. Perfect for short stays or vacations.",
+  "propertyType": "Apartment",
+  "location": {
+    "country": "Bangladesh",
+    "city": "Dhaka",
+    "address": "Banani, Road 11, House 32",
+    "latitude": 23.7947,
+    "longitude": 90.4145
+  },
+  "images": [
+    "https://a0.muscache.com/im/pictures/123abc.jpg",
+    "https://a0.muscache.com/im/pictures/456def.jpg",
+    "https://a0.muscache.com/im/pictures/789ghi.jpg"
+  ],
+  "pricePerNight": 3500,
+  "currency": "BDT",
+  "cleaningFee": 500,
+  "serviceFee": 200,
+  "guests": 4,
+  "bedrooms": 2,
+  "beds": 3,
+  "bathrooms": 2,
+  "amenities": [
+    "WiFi",
+    "Air Conditioning",
+    "Kitchen",
+    "Parking",
+    "Washing Machine",
+    "TV",
+    "Swimming Pool"
+  ],
+  "host": {
+    "name": "Tanvir Absar",
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "contact": "tanvir@example.com",
+    "isSuperHost": true
+  },
+  "rating": 4.8,
+  "reviewsCount": 126,
+  "reviews": [
+    {
+      "user": "Ali Hossain",
+      "comment": "Amazing place, very clean and good location!",
+      "rating": 5,
+      "date": "2025-09-10"
+    },
+    {
+      "user": "Sara Rahman",
+      "comment": "Host was friendly. Will book again.",
+      "rating": 4,
+      "date": "2025-09-15"
+    }
+  ],
+  "availability": {
+    "available": true,
+    "checkIn": "2025-10-01",
+    "checkOut": "2025-10-30"
+  },
+  "houseRules": [
+    "No smoking",
+    "No pets allowed",
+    "Check-in after 2:00 PM",
+    "Check-out before 11:00 AM"
+  ],
+  "safety": [
+    "Smoke alarm",
+    "Fire extinguisher",
+    "First aid kit"
+  ],
+  "cancellationPolicy": "Moderate"
+}

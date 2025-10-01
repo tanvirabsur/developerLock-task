@@ -2,6 +2,9 @@ import { createBrowserRouter } from "react-router";
 import RootLayout from "../pages/RootLayout";
 import Home from "../pages/Home";
 import PropertyDetails from "../pages/PropertyDetails";
+import Login from "../components/Login";
+import Signup from "../components/Signup";
+import ProtectedRoute from "../components/ProtectedRoute";
 
 const route = createBrowserRouter([
     {
@@ -9,15 +12,27 @@ const route = createBrowserRouter([
         Component: RootLayout,
         children: [
             {
-                index: true,
-                Component: Home
+                children: [
+                    {
+                        index: true,
+                        Component: Home
+                    },
+                    {
+                        path: '/property/:id',
+                        Component: PropertyDetails
+                    }
+                ]
             },
             {
-                path: '/property/:id',
-                Component: PropertyDetails
+                path: '/login',
+                Component: Login
+            },
+            {
+                path: '/signup',
+                Component: Signup
             }
         ]
     }
-])
+]);
 
-export { route }
+export { route };
