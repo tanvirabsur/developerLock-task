@@ -3,12 +3,16 @@ import { CheckCircle, MessageSquare, Map, Tag } from 'lucide-react'
 
 export default function RatingSection() {
   return (
-    <div className="max-w-4xl mx-auto py-10">
+    <div className="mx-auto py-10">
       {/* Top summary */}
-      <div className="text-center mb-10">
-        <div className="text-6xl font-bold">4.87</div>
+      <div className="flex justify-center items-center flex-col mb-10 ">
+        <div className="text-6xl font-bold flex">
+          <img className='h-20' src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-GuestFavorite/original/059619e1-1751-42dd-84e4-50881483571a.png" alt="" />
+         <p> 4.87</p>
+          <img className='h-20' src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-GuestFavorite/original/33b80859-e87e-4c86-841c-645c786ba4c1.png" alt="" />
+          </div>
         <h2 className="text-xl font-semibold mt-4">Guest favorite</h2>
-        <p className="text-gray-600 mt-2">
+        <p className="text-gray-600 mt-2 w-1/3 text-center">
           This home is in the <span className="font-semibold">top 10%</span> of eligible listings
           based on ratings, reviews, and reliability.
         </p>
@@ -37,33 +41,33 @@ export default function RatingSection() {
         </div>
 
         {/* Categories */}
-        <div className="col-span-5 grid grid-cols-3 gap-6 text-center">
-          <div>
+        <div className="col-span-5 grid grid-cols-6 gap-6 text-center items-center  font-bold text-2xl">
+          <div className='border-r border-gray-400'>
             <div className="text-lg font-semibold">4.9</div>
             <div className="text-sm text-gray-600">Cleanliness</div>
             <div className="mt-1">🧹</div>
           </div>
-          <div>
+          <div className='border-r border-gray-400'>
             <div className="text-lg font-semibold">4.9</div>
             <div className="text-sm text-gray-600">Accuracy</div>
             <CheckCircle className="mx-auto mt-1 w-5 h-5" />
           </div>
-          <div>
+          <div className='border-r border-gray-400'>
             <div className="text-lg font-semibold">4.9</div>
             <div className="text-sm text-gray-600">Check-in</div>
             <div className="mx-auto mt-1 w-5 h-5 border rounded-full flex items-center justify-center">⏱️</div>
           </div>
-          <div>
+          <div className='border-r border-gray-400'>
             <div className="text-lg font-semibold">5.0</div>
             <div className="text-sm text-gray-600">Communication</div>
             <MessageSquare className="mx-auto mt-1 w-5 h-5" />
           </div>
-          <div>
+          <div className='border-r border-gray-400'>
             <div className="text-lg font-semibold">4.9</div>
             <div className="text-sm text-gray-600">Location</div>
             <Map className="mx-auto mt-1 w-5 h-5" />
           </div>
-          <div>
+          <div className='border-r border-gray-400'>
             <div className="text-lg font-semibold">4.9</div>
             <div className="text-sm text-gray-600">Value</div>
             <Tag className="mx-auto mt-1 w-5 h-5" />

@@ -5,6 +5,9 @@ import { properties } from '../assets/dummyData';
 import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
 import Rate from "../components/Rate";
+import ReatingSection from "../components/RatingSection";
+import HighlightsSection from '../components/HighlightsSection';
+import HostProfile from "../components/HostProfile";
 import { Star, MapPin, Wifi, AirVent, Car, Share, Heart } from 'lucide-react';
 
 const PropertyDetails = () => {
@@ -78,6 +81,9 @@ const PropertyDetails = () => {
                                 <p className="text-gray-600">Superhost · 2 years hosting</p>
                             </div>
                         </div>
+                        {/* facilites */}
+
+                        <HighlightsSection/>
 
                         {/* Description */}
                         <div className="border-b pb-6 mb-6">
@@ -109,6 +115,8 @@ const PropertyDetails = () => {
                             <p className="text-gray-700 mt-2">{property.location}</p>
                         </div>
                     </div>
+
+
 
                     {/* Right Column - Booking Card */}
                     <div className="lg:col-span-1">
@@ -151,7 +159,10 @@ const PropertyDetails = () => {
                             </div>
                         </div>
                     </div>
+
                 </div>
+                <ReatingSection />
+                <HostProfile />
             </div>
             <Footer />
         </div>
