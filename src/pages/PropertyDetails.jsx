@@ -11,6 +11,7 @@ import HostProfile from "../components/HostProfile";
 import ThingsKnow from '../components/ThingsKnow';
 import { Star, MapPin, Wifi, AirVent, Car, Share, Heart } from 'lucide-react';
 import useFetch from '../hooks/useFetch';
+import Reviews from '../components/Reviews';
 
 const PropertyDetails = () => {
     const { id } = useParams();
@@ -159,6 +160,7 @@ const PropertyDetails = () => {
                 <ReatingSection />
                 <HostProfile extraOne={property.rating} extraTwo={property.reviewsCount} host={property.host}/>
                 <ThingsKnow deta={property.availability} />
+                <Reviews reviews={property.reviews}></Reviews>
             </div>
             {/* <Footer /> */}
         </div>
