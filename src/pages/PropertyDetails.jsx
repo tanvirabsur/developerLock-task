@@ -24,7 +24,6 @@ const PropertyDetails = () => {
     }
 
     // Dummy amenities for demonstration
-    console.log(property);
     return (
         <div>
             {/* <Navbar /> */}
@@ -50,9 +49,9 @@ const PropertyDetails = () => {
                         
                     </div>
                 </div>
-                <div className='flex justify-between items-center mb-6'>
+                <div className='flex flex-col lg:flex-row justify-between items-center mb-6'>
                     <p className='text-2xl font-bold'>Entire rental unit in {property.location.address}</p>
-                    <div className='flex justify-center border border-gray-300 items-center shadow-2xl h-13 p-3 rounded-xl w-1/3'>
+                    <div className='flex justify-center border border-gray-300 items-center shadow-2xl h-13 p-3 rounded-xl lg:w-1/3'>
                         <img className='h-10' src={'/tag (1).png'} alt="" />
                         <p className='font-bold'>Prices include all feesPrice</p>
                     </div>

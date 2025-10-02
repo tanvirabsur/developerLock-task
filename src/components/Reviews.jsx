@@ -1,12 +1,12 @@
 import React from 'react';
 
 const Reviews = ({ reviews }) => {
-    console.log(reviews);
+    
     return (
         <div className='grid lg:grid-cols-2 gap-6 mt-6'>
             {
-                reviews.map(review => (
-                    <div>
+                reviews.map((review,index) => (
+                    <div key={index}>
                         <div className="w-12">
                             <img src="https://img.daisyui.com/images/profile/demo/batperson@192.webp" className='rounded-2xl'/>
                         </div>

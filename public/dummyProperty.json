@@ -70,5 +70,1902 @@
       "Smoke alarm"
     ],
     "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d456791",
+    "title": "Cozy Beachfront Cottage",
+    "description": "Relax and unwind in this charming cottage just steps from the sand. Perfect for a family getaway.",
+    "propertyType": "House",
+    "cardCover": "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=960",
+    "location": {
+      "country": "USA",
+      "city": "Malibu",
+      "address": "45 Ocean Drive, Malibu",
+      "latitude": 34.0381,
+      "longitude": -118.7798
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 3200,
+    "currency": "USD",
+    "cleaningFee": 400,
+    "serviceFee": 200,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 4,
+    "bathrooms": 2,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Free parking",
+      "Beach access",
+      "Patio"
+    ],
+    "host": {
+      "name": "Robert Green",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "robert.green@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.8,
+    "reviewsCount": 85,
+    "reviews": [
+      {
+        "user": "David Lee",
+        "comment": "Fantastic location! The kids loved the beach.",
+        "rating": 5,
+        "date": "2025-08-20"
+      },
+      {
+        "user": "Sarah Brown",
+        "comment": "A truly cozy and relaxing spot. Highly recommend!",
+        "rating": 5,
+        "date": "2025-09-01"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-10-15",
+      "checkOut": "2025-10-31"
+    },
+    "houseRules": [
+      "Quiet hours after 10 PM",
+      "No smoking indoors"
+    ],
+    "safety": [
+      "Smoke alarm",
+      "First aid kit"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d456792",
+    "title": "Chic Studio near Eiffel Tower",
+    "description": "Elegant and compact studio in a prime location, perfect for a romantic Parisian escape.",
+    "propertyType": "Apartment",
+    "cardCover": "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=960",
+    "location": {
+      "country": "France",
+      "city": "Paris",
+      "address": "5 Rue Saint-Dominique, Paris",
+      "latitude": 48.8584,
+      "longitude": 2.2945
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 2800,
+    "currency": "EUR",
+    "cleaningFee": 350,
+    "serviceFee": 150,
+    "guests": 2,
+    "bedrooms": 0,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchenette",
+      "Heating",
+      "Essentials"
+    ],
+    "host": {
+      "name": "Marie Dubois",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "marie.dubois@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.7,
+    "reviewsCount": 150,
+    "reviews": [
+      {
+        "user": "Alex Johnson",
+        "comment": "Perfect location for exploring Paris. Very clean and stylish.",
+        "rating": 5,
+        "date": "2025-09-25"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-10-10",
+      "checkOut": "2025-10-20"
+    },
+    "houseRules": [
+      "Self check-in with keypad"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Flexible"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d456793",
+    "title": "Rustic Cabin in the Redwood Forest",
+    "description": "Escape the city in this secluded cabin surrounded by majestic redwood trees. Ideal for nature lovers.",
+    "propertyType": "Cabin",
+    "cardCover": "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=960",
+    "location": {
+      "country": "USA",
+      "city": "Eureka",
+      "address": "789 Forest Path, Humboldt County",
+      "latitude": 40.8021,
+      "longitude": -124.1637
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 1800,
+    "currency": "USD",
+    "cleaningFee": 200,
+    "serviceFee": 100,
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 1,
+    "amenities": [
+      "Kitchen",
+      "Fireplace",
+      "Hiking trails access",
+      "Pet friendly"
+    ],
+    "host": {
+      "name": "Michael Reed",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "michael.reed@example.com",
+      "isSuperHost": false
+    },
+    "rating": 4.6,
+    "reviewsCount": 60,
+    "reviews": [
+      {
+        "user": "Jessica Clark",
+        "comment": "Pure tranquility! The cabin is charming and the forest is stunning.",
+        "rating": 5,
+        "date": "2025-08-01"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-05",
+      "checkOut": "2025-11-15"
+    },
+    "houseRules": [
+      "Keep food stored safely (bears!)",
+      "No loud music"
+    ],
+    "safety": [
+      "First aid kit"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d456794",
+    "title": "Luxury Penthouse with Rooftop Pool",
+    "description": "Experience the high life in this stunning penthouse with a private rooftop infinity pool and 360-degree city views.",
+    "propertyType": "Penthouse",
+    "cardCover": "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=960",
+    "location": {
+      "country": "UAE",
+      "city": "Dubai",
+      "address": "Sheikh Zayed Road, Downtown Dubai",
+      "latitude": 25.2048,
+      "longitude": 55.2708
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 15000,
+    "currency": "AED",
+    "cleaningFee": 1500,
+    "serviceFee": 750,
+    "guests": 8,
+    "bedrooms": 4,
+    "beds": 4,
+    "bathrooms": 4,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Private pool",
+      "Gym",
+      "Sauna",
+      "Concierge"
+    ],
+    "host": {
+      "name": "Ahmed Al Maktoum",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "ahmed.almaktoum@example.com",
+      "isSuperHost": true
+    },
+    "rating": 5.0,
+    "reviewsCount": 45,
+    "reviews": [
+      {
+        "user": "Carlos Vega",
+        "comment": "The best place I have ever stayed. The pool deck is insane!",
+        "rating": 5,
+        "date": "2025-09-15"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-12-01",
+      "checkOut": "2025-12-10"
+    },
+    "houseRules": [
+      "No excessive noise after 11 PM"
+    ],
+    "safety": [
+      "Smoke alarm",
+      "24/7 Security"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d456795",
+    "title": "Traditional Ryokan with Onsen Access",
+    "description": "Authentic Japanese experience with tatami mats, a beautiful garden, and exclusive access to a natural hot spring (onsen).",
+    "propertyType": "Ryokan",
+    "cardCover": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+    "location": {
+      "country": "Japan",
+      "city": "Kyoto",
+      "address": "1-1 Arashiyama, Ukyo Ward",
+      "latitude": 35.0003,
+      "longitude": 135.7001
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 40000,
+    "currency": "JPY",
+    "cleaningFee": 5000,
+    "serviceFee": 2000,
+    "guests": 5,
+    "bedrooms": 2,
+    "beds": 3,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Onsen access",
+      "Traditional meals available",
+      "Garden view"
+    ],
+    "host": {
+      "name": "Kenji Tanaka",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "kenji.tanaka@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.95,
+    "reviewsCount": 110,
+    "reviews": [
+      {
+        "user": "Linda Chen",
+        "comment": "A serene and unforgettable stay. Truly felt like I was experiencing authentic Japan.",
+        "rating": 5,
+        "date": "2025-09-28"
+      }
+    ],
+    "availability": {
+      "available": false,
+      "checkIn": "2025-11-15",
+      "checkOut": "2025-11-20"
+    },
+    "houseRules": [
+      "Remove shoes indoors",
+      "Respect the silence of the area"
+    ],
+    "safety": [
+      "First aid kit"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d456796",
+    "title": "Ski-in/Ski-out Chalet",
+    "description": "Beautiful wooden chalet right on the slopes. Features a large stone fireplace and hot tub.",
+    "propertyType": "Chalet",
+    "cardCover": "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=960",
+    "location": {
+      "country": "Switzerland",
+      "city": "Zermatt",
+      "address": "Matterhorn Ski Paradise, Zermatt",
+      "latitude": 46.0207,
+      "longitude": 7.7491
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 850,
+    "currency": "CHF",
+    "cleaningFee": 120,
+    "serviceFee": 50,
+    "guests": 10,
+    "bedrooms": 5,
+    "beds": 6,
+    "bathrooms": 3,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Hot tub",
+      "Fireplace",
+      "Ski storage"
+    ],
+    "host": {
+      "name": "Hans Müller",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "hans.muller@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.8,
+    "reviewsCount": 95,
+    "reviews": [
+      {
+        "user": "Chris Evans",
+        "comment": "Unbelievable convenience for skiing! The chalet is spacious and very well-kept.",
+        "rating": 5,
+        "date": "2025-03-01"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-12-20",
+      "checkOut": "2025-12-27"
+    },
+    "houseRules": [
+      "No outside boots inside the living area"
+    ],
+    "safety": [
+      "Carbon monoxide alarm",
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d456797",
+    "title": "Historic Townhouse in Old Quarter",
+    "description": "A beautifully restored 19th-century townhouse. Full of character and close to all historical sights.",
+    "propertyType": "Townhouse",
+    "cardCover": "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=960",
+    "location": {
+      "country": "Spain",
+      "city": "Seville",
+      "address": "Calle Betis, Triana, Seville",
+      "latitude": 37.3828,
+      "longitude": -5.9980
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 350,
+    "currency": "EUR",
+    "cleaningFee": 40,
+    "serviceFee": 20,
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 3,
+    "bathrooms": 1.5,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Air conditioning",
+      "Patio",
+      "Washing machine"
+    ],
+    "host": {
+      "name": "Isabel García",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "isabel.garcia@example.com",
+      "isSuperHost": false
+    },
+    "rating": 4.75,
+    "reviewsCount": 180,
+    "reviews": [
+      {
+        "user": "Liam O'Connell",
+        "comment": "Authentic and wonderful. Loved the atmosphere and the proximity to the river.",
+        "rating": 5,
+        "date": "2025-09-10"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-01",
+      "checkOut": "2025-11-10"
+    },
+    "houseRules": [
+      "No loud noises after midnight"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Flexible"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d456798",
+    "title": "Minimalist Condo with Ocean View Balcony",
+    "description": "Clean, modern design with an expansive balcony overlooking the Atlantic Ocean. A breath of fresh air.",
+    "propertyType": "Condo",
+    "cardCover": "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=960",
+    "location": {
+      "country": "Portugal",
+      "city": "Lisbon",
+      "address": "Avenida 24 de Julho, Cais do Sodré",
+      "latitude": 38.7061,
+      "longitude": -9.1477
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 220,
+    "currency": "EUR",
+    "cleaningFee": 30,
+    "serviceFee": 15,
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Balcony",
+      "Pool access (shared)",
+      "Elevator"
+    ],
+    "host": {
+      "name": "Sofia Mendes",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "sofia.mendes@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.88,
+    "reviewsCount": 130,
+    "reviews": [
+      {
+        "user": "George Hall",
+        "comment": "Incredible views and the apartment is spotless. Very convenient access to public transport.",
+        "rating": 5,
+        "date": "2025-08-15"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-10-20",
+      "checkOut": "2025-10-28"
+    },
+    "houseRules": [
+      "Please conserve water and electricity"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d456799",
+    "title": "Safari Tent Glamping Experience",
+    "description": "Luxury glamping tent in a private game reserve. Wake up to the sounds of the African bush.",
+    "propertyType": "Tent",
+    "cardCover": "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=960",
+    "location": {
+      "country": "South Africa",
+      "city": "Kruger National Park",
+      "address": "Sabi Sands Game Reserve",
+      "latitude": -25.0475,
+      "longitude": 31.5126
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 6000,
+    "currency": "ZAR",
+    "cleaningFee": 500,
+    "serviceFee": 300,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "Safari drives included",
+      "Meals included",
+      "Private deck",
+      "Outdoor shower"
+    ],
+    "host": {
+      "name": "Thabo Zulu",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "thabo.zulu@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.98,
+    "reviewsCount": 55,
+    "reviews": [
+      {
+        "user": "Anna Scott",
+        "comment": "An incredible once-in-a-lifetime experience. The service was impeccable and the animals were breathtaking.",
+        "rating": 5,
+        "date": "2025-07-05"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-25",
+      "checkOut": "2025-12-05"
+    },
+    "houseRules": [
+      "Stay in designated areas for safety",
+      "No feeding the wildlife"
+    ],
+    "safety": [
+      "24/7 Staff assistance",
+      "Snake bite kit"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a0",
+    "title": "Floating Home on Amsterdam Canal",
+    "description": "Unique stay on a beautifully converted house boat. Enjoy the tranquil life on the canal with easy access to the city center.",
+    "propertyType": "Houseboat",
+    "cardCover": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+    "location": {
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "address": "Prinsengracht, Centrum",
+      "latitude": 52.3738,
+      "longitude": 4.8909
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 250,
+    "currency": "EUR",
+    "cleaningFee": 35,
+    "serviceFee": 15,
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Water view",
+      "Heating"
+    ],
+    "host": {
+      "name": "Dirk Van Der Velde",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "dirk.vdrvelde@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.92,
+    "reviewsCount": 160,
+    "reviews": [
+      {
+        "user": "Emma Stone",
+        "comment": "Staying on a houseboat was so cool! It's quiet, spacious, and centrally located.",
+        "rating": 5,
+        "date": "2025-09-05"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-10-25",
+      "checkOut": "2025-11-03"
+    },
+    "houseRules": [
+      "No diving in the canal"
+    ],
+    "safety": [
+      "Smoke alarm",
+      "Life jackets"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a1",
+    "title": "Vineyard Villa with Private Tasting Room",
+    "description": "A stunning villa in the heart of wine country. Enjoy rolling hills, a large pool, and complimentary wine tasting.",
+    "propertyType": "Villa",
+    "cardCover": "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=960",
+    "location": {
+      "country": "Italy",
+      "city": "Tuscany",
+      "address": "Via del Vino, Chianti",
+      "latitude": 43.5186,
+      "longitude": 11.2359
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 750,
+    "currency": "EUR",
+    "cleaningFee": 100,
+    "serviceFee": 50,
+    "guests": 8,
+    "bedrooms": 4,
+    "beds": 4,
+    "bathrooms": 3,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Private pool",
+      "BBQ grill",
+      "Wine cellar"
+    ],
+    "host": {
+      "name": "Giorgio Rossi",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "giorgio.rossi@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.9,
+    "reviewsCount": 70,
+    "reviews": [
+      {
+        "user": "Megan King",
+        "comment": "A dream vacation! The villa is breathtaking and the wine is excellent.",
+        "rating": 5,
+        "date": "2025-06-20"
+      }
+    ],
+    "availability": {
+      "available": false,
+      "checkIn": "2026-04-01",
+      "checkOut": "2026-04-15"
+    },
+    "houseRules": [
+      "Be respectful of the vineyard"
+    ],
+    "safety": [
+      "First aid kit"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a2",
+    "title": "Minimalist Tiny Home with Garden",
+    "description": "Cozy, thoughtfully designed tiny home maximizing space and comfort. Perfect for a solo traveler or couple.",
+    "propertyType": "Tiny Home",
+    "cardCover": "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=960",
+    "location": {
+      "country": "USA",
+      "city": "Austin",
+      "address": "101 Willow Street, East Austin",
+      "latitude": 30.2672,
+      "longitude": -97.7431
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 120,
+    "currency": "USD",
+    "cleaningFee": 25,
+    "serviceFee": 10,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchenette",
+      "Private garden",
+      "Air conditioning"
+    ],
+    "host": {
+      "name": "Sarah Miller",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "sarah.miller@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.96,
+    "reviewsCount": 300,
+    "reviews": [
+      {
+        "user": "Tom Jones",
+        "comment": "Loved the tiny home experience. So much thought put into the design and functionality.",
+        "rating": 5,
+        "date": "2025-09-19"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-01",
+      "checkOut": "2025-11-04"
+    },
+    "houseRules": [
+      "Mind your head!",
+      "No shoes inside"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Flexible"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a3",
+    "title": "Tropical Bungalow with Hammocks",
+    "description": "Open-air living in a vibrant, artistic bungalow. A short walk to the beach and local markets.",
+    "propertyType": "Bungalow",
+    "cardCover": "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=960",
+    "location": {
+      "country": "Mexico",
+      "city": "Tulum",
+      "address": "Calle Sol, Zona Hotelera",
+      "latitude": 20.2117,
+      "longitude": -87.4607
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 180,
+    "currency": "USD",
+    "cleaningFee": 20,
+    "serviceFee": 10,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Outdoor shower",
+      "Hammocks",
+      "Bicycles available"
+    ],
+    "host": {
+      "name": "Maria Elena",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "maria.elena@example.com",
+      "isSuperHost": false
+    },
+    "rating": 4.6,
+    "reviewsCount": 90,
+    "reviews": [
+      {
+        "user": "Samira Khan",
+        "comment": "A true jungle paradise! The open-air concept is refreshing.",
+        "rating": 4,
+        "date": "2025-08-08"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-20",
+      "checkOut": "2025-11-30"
+    },
+    "houseRules": [
+      "Be mindful of insects"
+    ],
+    "safety": [
+      "First aid kit"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a4",
+    "title": "Modern Apartment in Historic Center",
+    "description": "Newly renovated apartment in a historical building, blending old-world charm with contemporary comfort.",
+    "propertyType": "Apartment",
+    "cardCover": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+    "location": {
+      "country": "Germany",
+      "city": "Berlin",
+      "address": "Kastanienallee, Prenzlauer Berg",
+      "latitude": 52.5366,
+      "longitude": 13.4070
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 150,
+    "currency": "EUR",
+    "cleaningFee": 25,
+    "serviceFee": 10,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Heating",
+      "Washer"
+    ],
+    "host": {
+      "name": "Klaus Richter",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "klaus.richter@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.8,
+    "reviewsCount": 220,
+    "reviews": [
+      {
+        "user": "Naomi Perez",
+        "comment": "Excellent location and a lovely, quiet apartment. Highly recommend.",
+        "rating": 5,
+        "date": "2025-09-10"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-15",
+      "checkOut": "2025-11-22"
+    },
+    "houseRules": [
+      "Respect quiet time after 10 PM"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a5",
+    "title": "Desert Earthship Retreat",
+    "description": "An off-grid, sustainable home designed to blend into the New Mexico high desert landscape. Totally unique and peaceful.",
+    "propertyType": "Earthship",
+    "cardCover": "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=960",
+    "location": {
+      "country": "USA",
+      "city": "Taos",
+      "address": "Off-Grid Community, Tres Piedras",
+      "latitude": 36.6806,
+      "longitude": -105.7483
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 300,
+    "currency": "USD",
+    "cleaningFee": 50,
+    "serviceFee": 25,
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 1,
+    "amenities": [
+      "Off-grid power",
+      "Indoor garden",
+      "Stargazing deck",
+      "Kitchen"
+    ],
+    "host": {
+      "name": "River Phoenix",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "river.phoenix@example.com",
+      "isSuperHost": false
+    },
+    "rating": 4.9,
+    "reviewsCount": 40,
+    "reviews": [
+      {
+        "user": "Elijah Holt",
+        "comment": "An amazing experience in sustainable living. Peaceful and inspiring.",
+        "rating": 5,
+        "date": "2025-07-28"
+      }
+    ],
+    "availability": {
+      "available": false,
+      "checkIn": "2025-10-01",
+      "checkOut": "2025-10-07"
+    },
+    "houseRules": [
+      "Conserve water",
+      "Respect the off-grid system"
+    ],
+    "safety": [
+      "First aid kit"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a6",
+    "title": "Central London Mews House",
+    "description": "A charming, quiet mews house in a desirable central London neighborhood. A rare find!",
+    "propertyType": "House",
+    "cardCover": "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=960",
+    "location": {
+      "country": "UK",
+      "city": "London",
+      "address": "Hyde Park Mews, Westminster",
+      "latitude": 51.5074,
+      "longitude": -0.1657
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 450,
+    "currency": "GBP",
+    "cleaningFee": 60,
+    "serviceFee": 30,
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 2,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Central heating",
+      "Private entrance"
+    ],
+    "host": {
+      "name": "Eleanor Higgins",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "eleanor.higgins@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.95,
+    "reviewsCount": 140,
+    "reviews": [
+      {
+        "user": "Mark Wilson",
+        "comment": "The perfect London base. Quiet and luxurious in the heart of the city.",
+        "rating": 5,
+        "date": "2025-09-22"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-10-30",
+      "checkOut": "2025-11-06"
+    },
+    "houseRules": [
+      "No parties"
+    ],
+    "safety": [
+      "Smoke alarm",
+      "Carbon monoxide alarm"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a7",
+    "title": "Ski Loft with Hot Tub",
+    "description": "A spacious, modern loft ideal for a ski trip, featuring an outdoor hot tub and mountain views.",
+    "propertyType": "Loft",
+    "cardCover": "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=960",
+    "location": {
+      "country": "Canada",
+      "city": "Whistler",
+      "address": "Blackcomb Way, Whistler Village",
+      "latitude": 50.1163,
+      "longitude": -122.9574
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 700,
+    "currency": "CAD",
+    "cleaningFee": 80,
+    "serviceFee": 40,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 4,
+    "bathrooms": 2,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Hot tub",
+      "Fireplace",
+      "Washer/Dryer"
+    ],
+    "host": {
+      "name": "David Chan",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "david.chan@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.85,
+    "reviewsCount": 115,
+    "reviews": [
+      {
+        "user": "Olivia Ross",
+        "comment": "Perfect spot for our ski trip. The hot tub after a long day on the slopes was amazing.",
+        "rating": 5,
+        "date": "2025-02-14"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-12-10",
+      "checkOut": "2025-12-17"
+    },
+    "houseRules": [
+      "Hot tub use until 11 PM"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a8",
+    "title": "Ocean View Apartment in Ipanema",
+    "description": "Wake up to the stunning views of Ipanema beach in this bright, high-floor apartment.",
+    "propertyType": "Apartment",
+    "cardCover": "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=960",
+    "location": {
+      "country": "Brazil",
+      "city": "Rio de Janeiro",
+      "address": "Avenida Vieira Souto, Ipanema",
+      "latitude": -22.9859,
+      "longitude": -43.2163
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 450,
+    "currency": "BRL",
+    "cleaningFee": 50,
+    "serviceFee": 25,
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 2,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Elevator",
+      "Doorman",
+      "Beach essentials"
+    ],
+    "host": {
+      "name": "Ricardo Silva",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "ricardo.silva@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.7,
+    "reviewsCount": 190,
+    "reviews": [
+      {
+        "user": "Chloe Baker",
+        "comment": "The view is unbelievable. A spacious and clean apartment in a great part of Rio.",
+        "rating": 5,
+        "date": "2025-08-01"
+      }
+    ],
+    "availability": {
+      "available": false,
+      "checkIn": "2025-12-28",
+      "checkOut": "2026-01-05"
+    },
+    "houseRules": [
+      "No wet sand indoors"
+    ],
+    "safety": [
+      "24/7 Doorman"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567a9",
+    "title": "Artist's Studio in Montmartre",
+    "description": "A charming, light-filled studio with high ceilings in the historic artistic district of Paris.",
+    "propertyType": "Studio",
+    "cardCover": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+    "location": {
+      "country": "France",
+      "city": "Paris",
+      "address": "Rue des Abbesses, Montmartre",
+      "latitude": 48.8837,
+      "longitude": 2.3396
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 100,
+    "currency": "EUR",
+    "cleaningFee": 20,
+    "serviceFee": 5,
+    "guests": 2,
+    "bedrooms": 0,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchenette",
+      "Art supplies (by request)"
+    ],
+    "host": {
+      "name": "Jean-Pierre Leroy",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "jeanpierre.leroy@example.com",
+      "isSuperHost": false
+    },
+    "rating": 4.6,
+    "reviewsCount": 250,
+    "reviews": [
+      {
+        "user": "Helen Young",
+        "comment": "Small but perfectly formed. Great base for exploring Montmartre.",
+        "rating": 4,
+        "date": "2025-09-01"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-05",
+      "checkOut": "2025-11-09"
+    },
+    "houseRules": [
+      "No smoking"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Flexible"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567aa",
+    "title": "Luxury Yacht Charter (Docked)",
+    "description": "Stay in luxury on a fully equipped yacht docked in a lively harbor. Experience a different kind of accommodation.",
+    "propertyType": "Boat",
+    "cardCover": "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=960",
+    "location": {
+      "country": "Greece",
+      "city": "Mykonos",
+      "address": "Mykonos New Port, Tourlos",
+      "latitude": 37.4526,
+      "longitude": 25.3283
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 1200,
+    "currency": "EUR",
+    "cleaningFee": 150,
+    "serviceFee": 75,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 3,
+    "bathrooms": 2,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Deck space",
+      "Harbor views",
+      "Captain (optional extra)"
+    ],
+    "host": {
+      "name": "Nikos Petrovas",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "nikos.petrovas@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.88,
+    "reviewsCount": 35,
+    "reviews": [
+      {
+        "user": "Steve Martin",
+        "comment": "A fantastic experience! Staying on the water was so relaxing and the yacht is gorgeous.",
+        "rating": 5,
+        "date": "2025-07-20"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2026-05-01",
+      "checkOut": "2026-05-07"
+    },
+    "houseRules": [
+      "No shoes inside the cabin"
+    ],
+    "safety": [
+      "Life jackets",
+      "Fire extinguisher"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567ab",
+    "title": "Family Home near Disney World",
+    "description": "Large, modern house with a private pool and game room, minutes away from the major theme parks.",
+    "propertyType": "House",
+    "cardCover": "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=960",
+    "location": {
+      "country": "USA",
+      "city": "Orlando",
+      "address": "Kissimmee Vacation Homes, Orlando",
+      "latitude": 28.3852,
+      "longitude": -81.5639
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 400,
+    "currency": "USD",
+    "cleaningFee": 50,
+    "serviceFee": 30,
+    "guests": 12,
+    "bedrooms": 5,
+    "beds": 7,
+    "bathrooms": 4,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Private pool",
+      "Game room",
+      "Washer/Dryer"
+    ],
+    "host": {
+      "name": "The Johnson Family",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "johnson.family@example.com",
+      "isSuperHost": false
+    },
+    "rating": 4.75,
+    "reviewsCount": 105,
+    "reviews": [
+      {
+        "user": "Rachel Lim",
+        "comment": "Perfect for a large family! Close to the parks and the kids loved the pool.",
+        "rating": 5,
+        "date": "2025-07-01"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2026-03-10",
+      "checkOut": "2026-03-20"
+    },
+    "houseRules": [
+      "No glass containers in pool area"
+    ],
+    "safety": [
+      "Pool fence",
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567ac",
+    "title": "Heritage Colonial in Hanoi Old Quarter",
+    "description": "Stay in a beautifully preserved colonial building in the bustling heart of Hanoi, near Hoan Kiem Lake.",
+    "propertyType": "Apartment",
+    "cardCover": "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=960",
+    "location": {
+      "country": "Vietnam",
+      "city": "Hanoi",
+      "address": "Hang Gai Street, Hoan Kiem",
+      "latitude": 21.0285,
+      "longitude": 105.8542
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 80,
+    "currency": "VND",
+    "cleaningFee": 10,
+    "serviceFee": 5,
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchenette",
+      "Air conditioning",
+      "Elevator"
+    ],
+    "host": {
+      "name": "Mai Le",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "mai.le@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.9,
+    "reviewsCount": 350,
+    "reviews": [
+      {
+        "user": "Patrick Boyle",
+        "comment": "Fantastic location for exploring the Old Quarter. Mai was a wonderful host.",
+        "rating": 5,
+        "date": "2025-09-15"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-10-25",
+      "checkOut": "2025-11-05"
+    },
+    "houseRules": [
+      "Quiet hours after 10 PM"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Flexible"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567ad",
+    "title": "Lakefront Lodge with Sauna",
+    "description": "A quiet, secluded lodge on the shore of a clear lake. Perfect for fishing, hiking, and relaxing in the sauna.",
+    "propertyType": "Lodge",
+    "cardCover": "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=960",
+    "location": {
+      "country": "Finland",
+      "city": "Kuusamo",
+      "address": "Oulanka National Park, Kuusamo",
+      "latitude": 66.3333,
+      "longitude": 29.1833
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 200,
+    "currency": "EUR",
+    "cleaningFee": 30,
+    "serviceFee": 15,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 4,
+    "bathrooms": 1,
+    "amenities": [
+      "Sauna (wood-fired)",
+      "Kitchen",
+      "Rowboat access",
+      "Fireplace",
+      "Lake view"
+    ],
+    "host": {
+      "name": "Mikko Virtanen",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "mikko.virtanen@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.98,
+    "reviewsCount": 80,
+    "reviews": [
+      {
+        "user": "Daniel Lopez",
+        "comment": "The quintessential Finnish experience. The sauna and lake are spectacular.",
+        "rating": 5,
+        "date": "2025-09-01"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-20",
+      "checkOut": "2025-11-27"
+    },
+    "houseRules": [
+      "Respect the natural environment"
+    ],
+    "safety": [
+      "First aid kit"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567ae",
+    "title": "Designer Apartment in Sydney Harbour",
+    "description": "Sleek, architecturally designed apartment with breathtaking views of the Sydney Harbour Bridge and Opera House.",
+    "propertyType": "Apartment",
+    "cardCover": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+    "location": {
+      "country": "Australia",
+      "city": "Sydney",
+      "address": "Circular Quay, The Rocks",
+      "latitude": -33.8587,
+      "longitude": 151.2140
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 600,
+    "currency": "AUD",
+    "cleaningFee": 70,
+    "serviceFee": 35,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Gym (shared)",
+      "Harbour view",
+      "Concierge"
+    ],
+    "host": {
+      "name": "Chloe Davies",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "chloe.davies@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.9,
+    "reviewsCount": 160,
+    "reviews": [
+      {
+        "user": "Jason Chen",
+        "comment": "The most spectacular view in Sydney. Apartment is immaculate.",
+        "rating": 5,
+        "date": "2025-08-25"
+      }
+    ],
+    "availability": {
+      "available": false,
+      "checkIn": "2025-12-24",
+      "checkOut": "2026-01-02"
+    },
+    "houseRules": [
+      "No parties"
+    ],
+    "safety": [
+      "Smoke alarm",
+      "24/7 Security"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567af",
+    "title": "Rustic Farm Stay with Alpaca Friends",
+    "description": "A charming farmhouse offering a unique stay on a working farm. Perfect for animal lovers and a quiet escape.",
+    "propertyType": "Farm Stay",
+    "cardCover": "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=960",
+    "location": {
+      "country": "New Zealand",
+      "city": "Queenstown",
+      "address": "Rural Route 6, Arrowtown",
+      "latitude": -45.0312,
+      "longitude": 168.6626
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 250,
+    "currency": "NZD",
+    "cleaningFee": 40,
+    "serviceFee": 20,
+    "guests": 5,
+    "bedrooms": 3,
+    "beds": 3,
+    "bathrooms": 2,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Farm tour included",
+      "Heating",
+      "Outdoor seating"
+    ],
+    "host": {
+      "name": "Fiona and James Scott",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "scott.farm@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.95,
+    "reviewsCount": 65,
+    "reviews": [
+      {
+        "user": "Kenji Sato",
+        "comment": "The alpacas were so cute! A very peaceful and authentic New Zealand stay.",
+        "rating": 5,
+        "date": "2025-07-10"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2026-02-01",
+      "checkOut": "2026-02-14"
+    },
+    "houseRules": [
+      "Close all gates to keep livestock contained"
+    ],
+    "safety": [
+      "First aid kit"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567b0",
+    "title": "Mid-Century Modern Palm Springs Home",
+    "description": "Iconic mid-century architecture with a pool, clean lines, and a desert oasis feel.",
+    "propertyType": "House",
+    "cardCover": "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=960",
+    "location": {
+      "country": "USA",
+      "city": "Palm Springs",
+      "address": "Canyon Drive, Palm Springs",
+      "latitude": 33.8303,
+      "longitude": -116.5453
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 750,
+    "currency": "USD",
+    "cleaningFee": 90,
+    "serviceFee": 45,
+    "guests": 6,
+    "bedrooms": 3,
+    "beds": 3,
+    "bathrooms": 2,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Private pool",
+      "Air conditioning",
+      "BBQ grill"
+    ],
+    "host": {
+      "name": "Frank Lloyd",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "frank.lloyd@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.88,
+    "reviewsCount": 120,
+    "reviews": [
+      {
+        "user": "Sophia Reyes",
+        "comment": "Absolute mid-century heaven. The pool area is stunning and very private.",
+        "rating": 5,
+        "date": "2025-08-01"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-10",
+      "checkOut": "2025-11-17"
+    },
+    "houseRules": [
+      "No loud music by the pool after 9 PM"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Strict"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567b1",
+    "title": "Stone Tower in Medieval Village",
+    "description": "A truly unique experience in a multi-level converted watchtower within a preserved medieval Italian village.",
+    "propertyType": "Tower",
+    "cardCover": "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=960",
+    "location": {
+      "country": "Italy",
+      "city": "San Gimignano",
+      "address": "Piazza della Cisterna, Tuscany",
+      "latitude": 43.4688,
+      "longitude": 11.0435
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 350,
+    "currency": "EUR",
+    "cleaningFee": 50,
+    "serviceFee": 25,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchenette",
+      "Rooftop terrace",
+      "Historic building"
+    ],
+    "host": {
+      "name": "Aldo Benetti",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "aldo.benetti@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.9,
+    "reviewsCount": 75,
+    "reviews": [
+      {
+        "user": "Chris Lowell",
+        "comment": "An utterly unique stay. The views from the top are worth the climb!",
+        "rating": 5,
+        "date": "2025-06-05"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2026-04-10",
+      "checkOut": "2026-04-14"
+    },
+    "houseRules": [
+      "Be prepared for stairs (no elevator)"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567b2",
+    "title": "Contemporary Loft in Downtown Tokyo",
+    "description": "Sleek, Japanese-minimalist design in a high-rise building, steps away from Shinjuku's nightlife and transport.",
+    "propertyType": "Loft",
+    "cardCover": "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=960",
+    "location": {
+      "country": "Japan",
+      "city": "Tokyo",
+      "address": "Shinjuku-ku, Tokyo",
+      "latitude": 35.6902,
+      "longitude": 139.7003
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 18000,
+    "currency": "JPY",
+    "cleaningFee": 3000,
+    "serviceFee": 1000,
+    "guests": 3,
+    "bedrooms": 1,
+    "beds": 2,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi (Pocket)",
+      "Kitchenette",
+      "Elevator",
+      "City view"
+    ],
+    "host": {
+      "name": "Aya Takahashi",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "aya.takahashi@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.7,
+    "reviewsCount": 200,
+    "reviews": [
+      {
+        "user": "Ben Carter",
+        "comment": "Impeccably clean and stylish apartment. The location is unbeatable for exploring Tokyo.",
+        "rating": 5,
+        "date": "2025-09-29"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-11-01",
+      "checkOut": "2025-11-10"
+    },
+    "houseRules": [
+      "Please separate all trash properly"
+    ],
+    "safety": [
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Flexible"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567b3",
+    "title": "Mountain View Dome Home",
+    "description": "Geodesic dome home offering a 360-degree view of the mountains. A cozy, architectural marvel.",
+    "propertyType": "Dome",
+    "cardCover": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+    "location": {
+      "country": "Chile",
+      "city": "Pucon",
+      "address": "Volcano Villarrica foothills, Pucon",
+      "latitude": -39.2787,
+      "longitude": -71.9723
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 150,
+    "currency": "CLP",
+    "cleaningFee": 20,
+    "serviceFee": 10,
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 2,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Patio",
+      "Hiking access"
+    ],
+    "host": {
+      "name": "Javier Morales",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "javier.morales@example.com",
+      "isSuperHost": false
+    },
+    "rating": 4.75,
+    "reviewsCount": 95,
+    "reviews": [
+      {
+        "user": "Karen Wu",
+        "comment": "An amazing architectural space with stunning views of the volcano!",
+        "rating": 5,
+        "date": "2025-08-12"
+      }
+    ],
+    "availability": {
+      "available": false,
+      "checkIn": "2025-11-20",
+      "checkOut": "2025-12-05"
+    },
+    "houseRules": [
+      "No parties or loud gatherings"
+    ],
+    "safety": [
+      "Fire extinguisher"
+    ],
+    "cancellationPolicy": "Moderate"
+  },
+  {
+    "_id": "6512a6b0f9c2a1b23d4567b4",
+    "title": "Executive Suite with Boardroom",
+    "description": "A spacious apartment designed for business travelers, featuring a dedicated workspace and small meeting area.",
+    "propertyType": "Apartment",
+    "cardCover": "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=960",
+    "location": {
+      "country": "USA",
+      "city": "Chicago",
+      "address": "Wacker Drive, The Loop",
+      "latitude": 41.8832,
+      "longitude": -87.6324
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 300,
+    "currency": "USD",
+    "cleaningFee": 40,
+    "serviceFee": 20,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "Fast WiFi",
+      "Dedicated workspace",
+      "Gym",
+      "Doorman",
+      "Kitchen"
+    ],
+    "host": {
+      "name": "The Corporate Stay Co.",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "corporate.stay@example.com",
+      "isSuperHost": true
+    },
+    "rating": 4.8,
+    "reviewsCount": 150,
+    "reviews": [
+      {
+        "user": "David Kim",
+        "comment": "Excellent for business travel. Great location and a reliable workspace.",
+        "rating": 5,
+        "date": "2025-09-10"
+      }
+    ],
+    "availability": {
+      "available": true,
+      "checkIn": "2025-10-20",
+      "checkOut": "2025-10-31"
+    },
+    "houseRules": [
+      "Business attire in common areas"
+    ],
+    "safety": [
+      "Smoke alarm",
+      "24/7 Security"
+    ],
+    "cancellationPolicy": "Flexible"
   }
 ]
