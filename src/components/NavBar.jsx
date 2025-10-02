@@ -40,23 +40,13 @@ export default function AirbnbNavbar() {
               </button>
             ) : (
               <>
-                <Link
-                  to="/login"
-                  className="hidden md:inline text-sm font-medium px-3 py-2 rounded-full hover:bg-gray-100"
-                >
-                  Login
-                </Link>
-                <Link
-                  to="/signup"
-                  className="hidden md:inline text-sm font-medium px-3 py-2 rounded-full hover:bg-gray-100"
-                >
-                  Signup
-                </Link>
+                
+               
               </>
             )}
 
             <a
-              href="/host"
+              href="/#"
               className="hidden md:inline text-sm font-medium px-3 py-2 rounded-full hover:bg-gray-100"
             >
               Airbnb your home
