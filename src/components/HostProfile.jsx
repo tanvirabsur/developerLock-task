@@ -30,7 +30,8 @@ const ShieldIcon = () => (
 // --- End Icon Definitions ---
 
 
-const HostProfile = () => {
+const HostProfile = ({host,extraOne,extraTwo}) => {
+    console.log(extraOne,extraTwo);
     // Define custom colors locally for easy reference in inline styles where necessary
     const airbnbDark = '#222222';
     // const airbnbRed = '#FF5A5F';
@@ -49,7 +50,7 @@ const HostProfile = () => {
                         <div className="relative mx-auto">
                             {/* Placeholder Image (Using inline style for the gradient border effect) */}
                             <img
-                                src="https://placehold.co/112x112/A020F0/ffffff?text=Host"
+                                src={host.profileImage}
                                 onError={(e) => { e.target.onerror = null; e.target.src = 'https://placehold.co/112x112/A020F0/ffffff?text=Host'; }}
                                 alt="Ken Tat's profile"
                                 className="w-28 h-28 rounded-full object-cover border-4 border-gray-100"
@@ -63,7 +64,7 @@ const HostProfile = () => {
 
                         {/* Host Name and Title */}
                         <div className="text-center w-full space-y-1 mt-4">
-                            <h3 className="text-xl font-semibold" style={{ color: airbnbDark }}>Ken Tat</h3>
+                            <h3 className="text-xl font-semibold" style={{ color: airbnbDark }}>{host.name}</h3>
                             <div className="flex items-center justify-center text-sm text-gray-600">
                                 <TrophyIcon />
                                 <span className="font-medium">Superhost</span>
@@ -74,14 +75,14 @@ const HostProfile = () => {
                         <div className="grid grid-cols-3 gap-4 border-t border-gray-200 pt-4 mt-4 w-full text-center">
                             {/* Stat 1: Reviews */}
                             <div>
-                                <p className="text-lg font-semibold" style={{ color: airbnbDark }}>124</p>
+                                <p className="text-lg font-semibold" style={{ color: airbnbDark }}>{extraTwo}</p>
                                 <p className="text-xs text-gray-500">Reviews</p>
                             </div>
 
                             {/* Stat 2: Rating */}
                             <div>
                                 <p className="text-lg font-semibold" style={{ color: airbnbDark }}>
-                                    4.87
+                                    {extraOne}
                                     <span className="ml-1 text-sm text-black">★</span>
                                 </p>
                                 <p className="text-xs text-gray-500">Rating</p>

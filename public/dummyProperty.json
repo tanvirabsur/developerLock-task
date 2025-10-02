@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "6512a6b0f9c2a1b23d456790",
+    "title": "Modern Loft with Stunning Views",
+    "description": "A stylish loft in the heart of the city, offering panoramic views and a comfortable living space.",
+    "propertyType": "Loft",
+    "cardCover": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+    "location": {
+      "country": "USA",
+      "city": "New York",
+      "address": "123 Main Street, Manhattan",
+      "latitude": 40.7128,
+      "longitude": -74.0060
+    },
+    "images": [
+      "https://a0.muscache.com/im/pictures/45a05094-d754-474d-b5f7-ddf7fd319a58.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/f95a7511-2e32-4004-b520-442c85102fe0.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/848ba431-5dcb-4372-b691-feaa19ba25a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/3028816a-0cca-49a5-aa91-5b5f5838c4fb.jpg?im_w=720"
+    ],
+    "pricePerNight": 5500,
+    "currency": "USD",
+    "cleaningFee": 700,
+    "serviceFee": 300,
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1,
+    "amenities": [
+      "WiFi",
+      "Kitchen",
+      "Elevator",
+      "Gym",
+      "Doorman"
+    ],
+    "host": {
+      "name": "Jane Doe",
+      "profileImage": "https://a0.muscache.com/im/pictures/451624d5-bed7-4626-815d-e4c70550f700.jpg?im_w=960",
+      "contact": "jane.doe@example.com",
+      "isSuperHost": false
+    },
+    "rating": 4.9,
+    "reviewsCount": 210,
+    "reviews": [
+      {
+        "user": "John Smith",
+        "comment": "Incredible views and a beautiful apartment. Highly recommended!",
+        "rating": 5,
+        "date": "2025-09-12"
+      },
+      {
+        "user": "Emily White",
+        "comment": "The location is perfect. The loft is clean and modern.",
+        "rating": 5,
+        "date": "2025-09-18"
+      }
+    ],
+    "availability": {
+      "available": false,
+      "checkIn": "2025-11-01",
+      "checkOut": "2025-11-30"
+    },
+    "houseRules": [
+      "No parties or events",
+      "Not suitable for children and infants",
+      "Check-in is anytime after 3:00 PM"
+    ],
+    "safety": [
+      "Carbon monoxide alarm",
+      "Smoke alarm"
+    ],
+    "cancellationPolicy": "Strict"
+  }
+]

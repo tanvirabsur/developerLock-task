@@ -14,7 +14,8 @@ const FAKE_LISTING_DATA = {
   }
 };
 
-const ThingsToKnow = () => {
+const ThingsToKnow = ({data}) => {
+  console.log(data);
   const { property_details, safety_details } = FAKE_LISTING_DATA;
   
   // House Rules ডেটা
@@ -59,28 +60,28 @@ const ThingsToKnow = () => {
   return (
     <div className="p-6 md:p-10 border-t border-gray-200" id="things-to-know-section">
       <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-        Things to know (জানার বিষয়)
+        Things to know
       </h2>
       
       <div className="flex flex-col md:flex-row md:space-x-12">
         
         {/* House Rules Section */}
         <Section 
-          title="House rules (বাড়ির নিয়ম)" 
+          title="House rules " 
           items={houseRules} 
           showMoreText="Show more"
         />
 
         {/* Safety & Property Section */}
         <Section 
-          title="Safety & property (নিরাপত্তা ও সম্পত্তি)" 
+          title="Safety & property " 
           items={safetyProperty} 
           showMoreText="Show more"
         />
 
         {/* Cancellation Policy Section */}
         <Section 
-          title="Cancellation policy (বাতিলকরণ নীতি)" 
+          title="Cancellation policy " 
           items={cancellationPolicy} 
           // এখানে 'Review this Host's full policy for details' already আছে, তাই আলাদা Show more দরকার নেই
           showMoreText="Show more"
@@ -91,21 +92,14 @@ const ThingsToKnow = () => {
   );
 };
 
-// অ্যাপ কম্পোনেন্ট, যা উপরে তৈরি করা কম্পোনেন্টটিকে ব্যবহার করবে
-const ThingsKnow = () => {
+
+const ThingsKnow = ({deta}) => {
+  console.log(deta);
   return (
     <div className="font-sans antialiased bg-white min-h-screen">
-      <script src="https://cdn.tailwindcss.com"></script>
-      <style>
-        {`
-          @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-          body {
-            font-family: 'Inter', sans-serif;
-          }
-        `}
-      </style>
+      
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        <ThingsToKnow />
+        <ThingsToKnow data={deta} />
       </div>
     </div>
   );

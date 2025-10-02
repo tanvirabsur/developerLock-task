@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function Rate({ options }) {
+export default function Rate({ options,price }) {
   const defaultOptions = options || [
     {
       id: 'nonref',
@@ -50,7 +50,7 @@ export default function Rate({ options }) {
             <div className="flex-1">
               <div className="flex justify-between items-center">
                 <div className="text-sm font-medium text-gray-900">{opt.title}</div>
-                <div className="text-sm text-gray-700">{opt.price}</div>
+                <div className="text-sm text-gray-700">{price}</div>
               </div>
 
               {opt.description && (

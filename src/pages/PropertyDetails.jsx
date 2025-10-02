@@ -1,38 +1,36 @@
 
 import React from 'react';
 import { useParams } from 'react-router';
-import { properties } from '../assets/dummyData';
+// import { properties } from '../assets/dummyData';
 import Footer from '../components/Footer';
 import Navbar from '../components/NavBar';
 import Rate from "../components/Rate";
 import ReatingSection from "../components/RatingSection";
 import HighlightsSection from '../components/HighlightsSection';
 import HostProfile from "../components/HostProfile";
+import ThingsKnow from '../components/ThingsKnow';
 import { Star, MapPin, Wifi, AirVent, Car, Share, Heart } from 'lucide-react';
+import useFetch from '../hooks/useFetch';
 
 const PropertyDetails = () => {
     const { id } = useParams();
-    const property = properties.find(p => p.id === parseInt(id));
-
+    const {data} = useFetch('/dummyProperty.json')
+    // console.log(id,data);
+    const property = data.find(p => p._id == id);
+    
     if (!property) {
         return <div>Property not found</div>;
     }
 
     // Dummy amenities for demonstration
-    const amenities = [
-        { name: 'Wifi', icon: <Wifi size={20} /> },
-        { name: 'Kitchen', icon: <p></p> },
-        { name: 'Air conditioning', icon: <AirVent size={20} /> },
-        { name: 'Free parking', icon: <Car size={20} /> },
-    ];
-
+    console.log(property);
     return (
         <div>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
                 {/* Title and Location */}
                 <div className='flex justify-between'>
-                    <h1 className="text-3xl font-semibold mb-2">{property.name}</h1>
+                    <h1 className="text-3xl font-semibold mb-3">{property.title}</h1>
                     <div className="flex gap-3 items-center text-sm text-gray-600 mb-4">
                         <p className='flex gap-1'><p className='font-bold underline'>shere</p><Share size={20} /></p>
                         <p className='flex gap-1 justify-center items-center'><p className='font-bold underline'>save</p> <Heart size={20} /></p>
@@ -40,19 +38,19 @@ const PropertyDetails = () => {
                 </div>
 
                 {/* Image Gallery */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 rounded-xl overflow-hidden mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-4 rounded-xl overflow-hidden mb-8">
                     <div className="md:col-span-2 lg:col-span-2">
-                        <img src={property.image} alt={property.name} className="w-full h-full object-cover" />
+                        <img src={property.cardCover} alt={'img'} className="w-full h-full object-cover" />
                     </div>
                     <div className="hidden md:grid grid-cols-2 gap-4 lg:col-span-2">
-                        <img src={property.image} alt={property.name} className="w-full h-full object-cover" />
-                        <img src={property.image} alt={property.name} className="w-full h-full object-cover" />
-                        <img src={property.image} alt={property.name} className="w-full h-full object-cover" />
-                        <img src={property.image} alt={property.name} className="w-full h-full object-cover" />
+                        {
+                            property?.images.map((img,index)=> <img key={index} src={img} alt={'hello'} className="w-full h-full object-cover" />)
+                        }
+                        
                     </div>
                 </div>
                 <div className='flex justify-between items-center mb-6'>
-                    <p className='text-2xl font-bold'>Entire rental unit in {property.location}</p>
+                    <p className='text-2xl font-bold'>Entire rental unit in {property.location.address}</p>
                     <div className='flex justify-center border border-gray-300 items-center shadow-2xl h-13 p-3 rounded-xl w-1/3'>
                         <img className='h-10' src={'/tag (1).png'} alt="" />
                         <p className='font-bold'>Prices include all feesPrice</p>
@@ -88,7 +86,7 @@ const PropertyDetails = () => {
                         {/* Description */}
                         <div className="border-b pb-6 mb-6">
                             <p className="text-lg text-gray-700 leading-relaxed">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                {property.description}
                             </p>
                             <button className="font-semibold underline mt-4">Show more</button>
                         </div>
@@ -97,12 +95,9 @@ const PropertyDetails = () => {
                         <div className="border-b pb-6 mb-6">
                             <h2 className="text-2xl font-semibold mb-4">What this place offers</h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                {amenities.map((amenity, index) => (
-                                    <div key={index} className="flex items-center text-gray-800">
-                                        {amenity.icon}
-                                        <span className="ml-2">{amenity.name}</span>
-                                    </div>
-                                ))}
+                                {
+                                    property.amenities.map((an,index)=> <p key={index}>{an}</p>)
+                                }
                             </div>
                         </div>
 
@@ -112,7 +107,7 @@ const PropertyDetails = () => {
                             <div className="w-full h-80 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
                                 Map Placeholder
                             </div>
-                            <p className="text-gray-700 mt-2">{property.location}</p>
+                            <p className="text-gray-700 mt-2"></p>
                         </div>
                     </div>
 
@@ -122,8 +117,8 @@ const PropertyDetails = () => {
                     <div className="lg:col-span-1">
                         <div className="sticky top-28 border border-gray-300 rounded-xl shadow-lg p-6">
                             <div className="mb-4">
-                                <span className="text-2xl font-bold underline">${property.price}</span>
-                                <p>for 2 nights</p>
+                                <span className="text-2xl font-bold underline">${property.pricePerNight}</span>
+                                <p>for 1 nights</p>
 
                             </div>
 
@@ -148,7 +143,7 @@ const PropertyDetails = () => {
                                     </select>
                                 </div>
                             </div>
-                            <Rate />
+                            <Rate price={property.pricePerNight} />
                             <br />
                             <button className="w-full bg-[#FF385C] text-white p-3 rounded-lg font-semibold text-lg hover:bg-[#e03050] transition-colors duration-200">
                                 Check availability
@@ -162,10 +157,12 @@ const PropertyDetails = () => {
 
                 </div>
                 <ReatingSection />
-                <HostProfile />
+                <HostProfile extraOne={property.rating} extraTwo={property.reviewsCount} host={property.host}/>
+                <ThingsKnow deta={property.availability} />
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
+       
     );
 };
 

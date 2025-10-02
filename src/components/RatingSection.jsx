@@ -5,7 +5,7 @@ export default function RatingSection() {
   return (
     <div className="mx-auto py-10">
       {/* Top summary */}
-      <div className="flex justify-center items-center flex-col mb-10 ">
+      <div className="flex justify-center flex-col items-center mb-10 ">
         <div className="text-6xl font-bold flex">
           <img className='h-20' src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-GuestFavorite/original/059619e1-1751-42dd-84e4-50881483571a.png" alt="" />
          <p> 4.87</p>
@@ -19,9 +19,9 @@ export default function RatingSection() {
       </div>
 
       {/* Ratings breakdown */}
-      <div className="grid grid-cols-7 gap-6 border-t border-b py-6">
+      <div className="grid  grid-cols-2 gap-6 border-t border-b  py-6">
         {/* Overall rating */}
-        <div className="col-span-2">
+        <div className="col-span-2 ">
           <h3 className="text-sm font-medium mb-3">Overall rating</h3>
           <div className="space-y-1 text-xs">
             {[5, 4, 3, 2, 1].map((star, idx) => (
@@ -41,7 +41,7 @@ export default function RatingSection() {
         </div>
 
         {/* Categories */}
-        <div className="col-span-5 grid grid-cols-6 gap-6 text-center items-center  font-bold text-2xl">
+        <div className="col-span-5 grid grid-cols-2 lg:grid-cols-6 gap-6 text-center items-center  font-bold text-2xl">
           <div className='border-r border-gray-400'>
             <div className="text-lg font-semibold">4.9</div>
             <div className="text-sm text-gray-600">Cleanliness</div>
